@@ -30,7 +30,7 @@ body::after {
 }
 
 body.show::after {
-  opacity: .5;
+  opacity: .005;
 }
 
 .book:nth-child(4n+1) .book-head {

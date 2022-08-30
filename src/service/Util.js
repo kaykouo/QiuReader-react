@@ -71,7 +71,7 @@ class Util {
 
   // 解析用户传入的样式表
   static parseStyle(style) {
-    const separator = '/* Qiu Plus Separator */';
+    const separator = '/* Separator */';
     let arr = style.split(separator);
     let out = {
       inner: arr[0] || '',
@@ -91,7 +91,7 @@ class Util {
 
   // 解析用户传入的脚本
   static parseScript(script) {
-    const separator = '/* Qiu Plus Separator */';
+    const separator = '/* Separator */';
     let arr = script.split(separator);
     let out = {
       inner: arr[0] || '',
